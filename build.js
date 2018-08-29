@@ -8,7 +8,7 @@
 	"promise": "lib/promise.min",
 	"bIsObjectEqual": "lib/is_object_equal.min"
     },
-    exclude: [ "rsvp", "underscore" ],
+    exclude: [ "rsvp", "underscore", "promise" ],
     name: "AsyncAssertion",
     out: "async_assertion.min.js"
 })
